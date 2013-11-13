@@ -1,0 +1,4 @@
+--type-add=python=.ptl
+--type-set=pyrex=.pyx
+--ignore-dir=venv
+--ignore-dir=venv.daes
