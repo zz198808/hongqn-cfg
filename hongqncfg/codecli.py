@@ -8,4 +8,7 @@ CONF = """\
 
 
 def apply():
-    yield File("~hongqn/.codecli.conf", content=CONF)
+    yield File("~hongqn/.codecli.conf",
+               content=CONF,
+               owner='hongqn',
+               )
