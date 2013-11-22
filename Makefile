@@ -1,2 +1,2 @@
 apply:
-	sudo occupy apply hongqncfg -v
+	sudo occupy apply hongqncfg

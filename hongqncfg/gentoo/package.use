@@ -1,0 +1,54 @@
+dev-lang/python ssl sqlite
+app-portage/layman git mercurial subversion
+app-editors/vim python vim-pager ruby
+dev-libs/thrift -cxx -libevent
+net-analyzer/hping tcl
+dev-libs/protobuf python
+dev-vcs/git perl cgi -webdav -subversion
+#required by dev-vcs/git-1.7.8.3[subversion,perl], required by @selected, required by @world (argument)
+>=dev-vcs/subversion-1.7.1 perl
+#required by media-gfx/graphviz-2.26.3-r4, required by graphviz (argument)
+>=media-libs/gd-2.0.35-r3 truetype jpeg png fontconfig
+media-gfx/graphviz cairo
+www-servers/nginx -nginx_modules_http_geo
+sys-cluster/moosefs -client
+dev-libs/boost python
+app-portage/eix optimization strong-optimization sqlite zsh-completion tools
+#required by virtual/ruby-threads-0, required by dev-ruby/ffi-1.2.0[ruby_targets_ruby18], required by virtual/ruby-ffi-1[ruby_targets_ruby18], required by dev-ruby/childprocess-0.3.7[ruby_targets_ruby19], required by app-emulation/vagrant-1.0.6[ruby_targets_ruby18], required by vagrant (argument)
+>=dev-lang/ruby-1.8.7_p371:1.8 threads
+#required by code
+dev-libs/xapian-bindings python
+# required by sys-devel/clang-3.3-r100
+# required by clang (argument)
+=sys-devel/llvm-3.3-r1 clang
+# required by vagrant (argument)
+=app-emulation/vagrant-1.3.5 ruby_targets_ruby19
+# required by dev-ruby/rdoc-4.0.1-r1[ruby_targets_ruby19]
+# required by dev-lang/ruby-1.9.3_p448-r1[rdoc]
+# required by virtual/rubygems-4
+# required by dev-ruby/rake-0.9.6[-test,ruby_targets_ruby19]
+# required by dev-ruby/racc-1.4.10[-test,ruby_targets_ruby19]
+>=dev-ruby/json-1.8.1 ruby_targets_ruby19
+# required by dev-lang/ruby-1.9.3_p448-r1[rdoc]
+# required by virtual/rubygems-4
+# required by dev-ruby/rake-0.9.6[-test,ruby_targets_ruby19]
+# required by dev-ruby/racc-1.4.10[-test,ruby_targets_ruby19]
+>=dev-ruby/rdoc-4.0.1-r1 ruby_targets_ruby19
+# required by dev-lang/ruby-1.9.3_p448-r1
+# required by virtual/rubygems-4
+# required by dev-ruby/rdoc-4.0.1-r1[-test,ruby_targets_ruby19]
+# required by dev-lang/ruby-2.0.0_p247-r1[rdoc]
+# required by dev-ruby/rake-0.9.6[ruby_targets_ruby20]
+# required by dev-ruby/racc-1.4.10[-test,ruby_targets_ruby19]
+>=dev-ruby/rubygems-2.0.10 ruby_targets_ruby19
+# required by dev-ruby/rdoc-4.0.1-r1[ruby_targets_ruby19]
+# required by dev-lang/ruby-1.9.3_p448-r1[rdoc]
+# required by virtual/rubygems-4
+# required by dev-ruby/rake-0.9.6[-test,ruby_targets_ruby19]
+# required by app-emulation/vagrant-1.3.5[-test,ruby_targets_ruby19]
+# required by vagrant (argument)
+>=dev-ruby/racc-1.4.10 ruby_targets_ruby19
+# required by dev-ruby/json-1.8.1[-test,-doc,ruby_targets_ruby19]
+# required by app-emulation/vagrant-1.3.5[ruby_targets_ruby19]
+# required by vagrant (argument)
+>=dev-ruby/rake-0.9.6 ruby_targets_ruby19

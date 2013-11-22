@@ -1,4 +1,4 @@
-from . import zsh, ack, codecli, git
+from . import zsh, ack, codecli, git, gentoo
 
 
 def apply():
@@ -6,3 +6,4 @@ def apply():
     yield ack
     yield codecli
     yield git
+    yield gentoo
