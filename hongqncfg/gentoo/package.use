@@ -4,7 +4,7 @@ app-editors/vim python vim-pager ruby
 dev-libs/thrift -cxx -libevent
 net-analyzer/hping tcl
 dev-libs/protobuf python
-dev-vcs/git perl cgi -webdav -subversion
+dev-vcs/git perl cgi -subversion
 #required by dev-vcs/git-1.7.8.3[subversion,perl], required by @selected, required by @world (argument)
 >=dev-vcs/subversion-1.7.1 perl
 #required by media-gfx/graphviz-2.26.3-r4, required by graphviz (argument)
@@ -20,6 +20,7 @@ app-portage/eix optimization strong-optimization sqlite zsh-completion tools
 dev-libs/xapian-bindings python
 # required by vagrant (argument)
 =app-emulation/vagrant-1.3.5 ruby_targets_ruby19
+=app-emulation/vagrant-1.4.0 ruby_targets_ruby19
 # required by dev-ruby/rdoc-4.0.1-r1[ruby_targets_ruby19]
 # required by dev-lang/ruby-1.9.3_p448-r1[rdoc]
 # required by virtual/rubygems-4
